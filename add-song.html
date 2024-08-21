@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Song</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="add-song-page">
+    <div class="wrapper">
+      <h2>Add New Song</h2>
+      <div class="add-song">
+        <input type="text" id="song-name" placeholder="Song Name" />
+        <input type="text" id="song-artist" placeholder="Artist" />
+        <input type="file" id="song-url" accept="audio/*" />
+        <input type="file" id="song-img" accept="image/*" />
+        <button onclick="addSong()">Add Song</button>
+      </div>
+      <div class="playlist">
+        <h2>Playlist</h2>
+        <ul id="playlist"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
