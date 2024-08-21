@@ -55,5 +55,7 @@ Open index.html in your web browser to access the music player interface.
 -assets/css/style.css: Stylesheet for the project.
 
 -assets/js/main.js: JavaScript file for music playback and playlist management.
+
 -assets/images/: Directory for track and background images.
+
 -assets/music/: Directory for audio files.
